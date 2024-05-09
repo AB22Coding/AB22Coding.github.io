@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>My Homepage</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <!-- My CSS -->
+        <link href="styles.css" rel="stylesheet">
+
+        <!-- My JS-->
+        <script src="index.js"></script>
+    </head>
+
+    <body>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="jokes.html">Jokes</a>
+            <a href="cars.html">Cars</a>
+            <a href="math.html">Math</a>
+        </nav>
+
+        <!-- Boostrap from https://getbootstrap.com/docs/5.3/layout/grid/#example -->
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+
+                    <h1>Welcome to my Homepage!</h1>
+
+                    <!-- Image from X.com -->
+                    <img src="media/welcomeImage.jpg" alt="Welcome Image" width = "306" height = "170">
+
+                </div>
+            </div>
+        </div>
+
+        <p class = "home">
+            This is the homepage to my website! This homepage is intended to give you an overview of the site. On this site, you will find:
+        </p>
+        <ul>
+            <li id = "li_1">A page for jokes!</li>
+            <li id= "li_2">A page for cars, because I love cars!</li>
+            <li id= "li_3">And a page for math, because I think math is fun!</li>
+        </ul>
+        <p class = "home">
+            You can access any of these pages using the hyperlinks above. Enjoy!
+        </p>
+
+        <script>
+            window.onload = function() {
+            alert("You have reached the home page!");
+          }
+        </script>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

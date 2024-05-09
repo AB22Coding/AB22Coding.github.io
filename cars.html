@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Cars!</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <!-- My CSS -->
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="jokes.html">Jokes</a>
+            <a href="cars.html">Cars</a>
+            <a href="math.html">Math</a>
+        </nav>
+
+        <!-- Boostrap from https://getbootstrap.com/docs/5.3/layout/grid/#example -->
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+
+                    <h1>A page for cars!</h1>
+
+                    <!-- Image from poolunique.com -->
+                    <img src="media/garage.jpg" alt="Garage of Cars" width = "311" height = "186">
+
+                </div>
+            </div>
+        </div>
+
+        <div class = "cars">
+            Consider you have a garage with cars inside. Here is the garage:
+            <div class = "dropdown mt-3">
+                <button class = "btn btn-secondary dropdown-toggle" type = "button"
+                id = "book-dropdown" data-bs-toggle="dropdown">
+                    Garage
+                </button>
+                <ul class = "dropdown-menu" aria-labelledby="book-dropdown">
+                    <li><a href="#" class="dropdown-item">Ferrari</a></li>
+                    <li><a href="#" class="dropdown-item">Pagani</a></li>
+                    <li><a href="#" class="dropdown-item">Lamborghini</a></li>
+                    <li><a href="#" class="dropdown-item">BMW</a></li>
+                    <li><a href="#" class="dropdown-item">Porsche</a></li>
+                </ul>
+                <ul class = "dropdown-menu">
+                </ul>
+            </div>
+            Out of these cars, which do you like the most?
+
+            <form action="/submit_form" method="post">
+                <label>Name:</label><br>
+                <input type="radio" id="Ferrari" value="Ferrari" name="name">Ferrari<br>
+                <input type="radio" id="Pagani" value="Pagani" name="name">Pagani<br>
+                <input type="radio" id="Lamborghini" value="Lamborghini" name="name">Lamborghini<br>
+                <input type="radio" id="BMW" value="BMW" name="name">BMW<br>
+                <input type="radio" id="Porsche" value="Porsche" name="name">Porsche<br>
+                <input type="submit" value="Submit">
+              </form>
+
+        </div>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!-- My JS-->
+        <script src="cars.js"></script>
+    </body>
+
+</html>

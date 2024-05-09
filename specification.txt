@@ -1,0 +1,22 @@
+10 tags HTML tags used:
+1. <p>
+2. <nav>
+3. <button>
+4. <ol>
+5. <ul>
+6. <input>
+7. <div>
+8. <form>
+9. <h1>
+10. <img>
+
+5 CSS properties used:
+1. text-align
+2. color
+3. font-family
+4. list-style-position
+5. text-shadow
+
+I used bootstrap to create a nice looking drop down menu in the "Cars" page of my site; I used JavaScript
+to display an alert of the user's choice in the form below the drop down on this page, as well as to
+alert the user of the page they have reached everytime they go to a new page.

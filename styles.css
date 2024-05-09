@@ -1,0 +1,51 @@
+.home {
+    color: orange;
+    text-align: center;
+}
+
+#li_1 {
+    text-align: center;
+    color: red;
+}
+
+#li_2 {
+    text-align: center;
+    color: green;
+}
+
+#li_3 {
+    text-align: center;
+    color: blue;
+}
+
+.cars {
+    text-align: center;
+}
+
+.jokes {
+    text-align: center;
+    font-family: Verdana;
+}
+
+ul,
+ol {
+    list-style-position: inside;
+}
+
+li {
+    text-align: center;
+    color: purple;
+    font-style: italic;
+}
+
+.math {
+    text-shadow: 2px 2px 4px blue;
+}
+
+#mathInfo1 {
+    text-align: center;
+}
+
+#mathInfo2 {
+    text-align: center;
+}
